@@ -2,7 +2,6 @@ apiVersion: pingcap.com/v1alpha1
 kind: TidbCluster
 metadata:
   name: detailed-tidb
-  namespace: default
 
 spec:
   # ** Basic Configuration **
