@@ -14,10 +14,10 @@ spec:
     baseImage: pingcap/pd
     replicas: 3
     # if storageClassName is not set, the default Storage Class of the Kubernetes cluster will be used
-    storageClassName: local-storage
+    # storageClassName: local-storage
     requests:
       storage: "1Gi"
-    dataSubDir: "data"
+    #dataSubDir: "data"
     config: {}
   tikv:
     baseImage: pingcap/tikv
